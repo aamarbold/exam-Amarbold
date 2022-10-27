@@ -1,0 +1,116 @@
+body *{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.margin{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+}
+header{
+    justify-content: space-between;
+    align-items: center;
+}
+header ul{
+    justify-content: space-between;
+    list-style: none;
+    align-self: center;
+}
+header li{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+.main{
+    height: 90%;
+    width: 100%;
+    justify-content: space-between;
+}
+#arrow{
+    align-self: flex-end;
+    width: 48px;
+    height: 48px;
+    margin: 25px 50px;
+}
+.page1{
+    background-image: url("Samsung website/image 1ccc.png");
+    background-position: center center;
+    height: 1080px;
+    background-size: cover;
+}
+.main h1{
+    font-size: 70px;
+    line-height: 105px;
+    align-self: center;
+    margin: 15%;
+}
+.page2 section{
+    width: 50%;
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    padding: 50px;
+    font-size: 36px;
+}
+.fold4{
+    background-image: url("Samsung website/image 5ccc.png");
+    background-position: center center;
+    height: 486px;
+    background-size: cover;
+}
+.unpack{
+    background-image: url("Samsung website/image 6ccc.png");
+    background-position: center center;
+    height: 486px;
+    background-size: cover;
+    text-align: end;
+}
+.pro{
+    position: relative;
+    text-align: center;
+    box-sizing: border-box;
+    width: calc(100% / 4);
+    height: 480px;
+    background-color: rgba(220, 220, 220, 0.311);
+}
+.pro:hover{
+    background-color: rgba(2, 2, 191, 0.749);
+}
+.pro img{
+    top: 0px;
+    left: 4%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.pro p{
+    padding-top: 85%;
+    font-size: 23px;
+}
+.products{
+    flex-wrap: wrap;
+    margin: 20px 0px;
+}
+.page3 h2{
+    font-size: 32px;
+    padding: 30px;
+}
+.links1{
+    padding: 40px 15px ;
+    margin-bottom: 50px;
+}
+.rend{
+    padding: 0px 20px;
+    font-size: 12px;
+}
+.fade{
+    opacity: 0.4;
+}
+footer{
+    margin: 50px 10px;
+}
+
